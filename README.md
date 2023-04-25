@@ -1,3 +1,5 @@
+# README EM CONSTRUÇÃO ⚙️
+
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[BRUNO CERQUEIRA](https://www.linkedin.com/in/developerbrunocerqueira/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀
