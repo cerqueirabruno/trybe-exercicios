@@ -9,15 +9,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## FUNDAMENTOS DO DESENVOLVIMENTO WEB
 
 ##### Bloco 1: Introdução - Unix & Shell
+Início: 17/04/2023 Fim: **/**/****
 
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
-
-##### Bloco 2: Git & GitHub
-
-- [ ] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+##### Bloco 2: Introdução à HTML & CSS
+##### Bloco 3: Introdução à Javascript
+##### Bloco 4: Javascript: DOM, Eventos e Web Storage
+##### Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo:
+##### Bloco 6: Introdução à Javascript ES6 e teste Unitários
+##### Bloco 7: Higher Order Functions do JavaScript ES6
 
 ## FRONT-END
 
