@@ -1,0 +1,83 @@
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-child(even) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+/*  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red;
+}
+
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+/*  */
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: 700;
+}
+
+/*  */
+
+ul li:nth-of-type(-n+3) {
+    color: blue;
+}
+
+.pink-bg {
+    background-color: pink;
+}
+
+/*  */
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+ul li:nth-child(1) a:hover {
+    color: #f48024;
+    /* stackoverflow */
+}
+
+ul li:nth-child(2) a:hover {
+    color: #4caf50;
+    /* w3schools */
+}
+
+ul li:nth-child(3) a:hover {
+    color: #000000;
+    /* mdn */
+}
+
+ul li:nth-child(4) a:hover {
+    color: #eeff00;
+    /* devdocs */
+}
+
+ul li:nth-child(5) a:hover {
+    color: #1eff00;
+    /* trybe */
+}
