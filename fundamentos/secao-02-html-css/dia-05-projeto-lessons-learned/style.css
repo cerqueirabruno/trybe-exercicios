@@ -1,0 +1,101 @@
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+
+/* header */
+
+header {
+    background-color: #000000;
+    padding: 20px;
+}
+
+#logo {
+    width: 300px;
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* main */
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: rgb(150, 0, 255);
+}
+
+.produtos li:hover h2 {
+    font-size: 28px;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+nav a:hover {
+    color: rgb(150, 0, 255);
+}
+
+/* footer */
+
+footer {
+    background-color: #000000;
+}
+
+.localizacao {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
