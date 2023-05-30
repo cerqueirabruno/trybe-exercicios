@@ -1,0 +1,30 @@
+<main id="parent-of-parent">
+    <section id="parent">
+        <section id="first-child"></section>
+        <section id="where-are-you">
+            <section id="first-child-of-child"></section>
+        </section>
+        Attention!
+        <section id="third-child"></section>
+        <section id="fourth-and-last-child"></section>
+    </section>
+    <script>
+        const ex1 = document.querySelector('where-are-you');
+        
+        const ex2 = ex1.parentElement;
+        ex2.style.color = 'green';
+
+        const ex3 = ex1.firstElementChild;
+        ex3.innerText = 'Firt child of child';
+
+        const ex4 = ex2.firstElementChild;
+
+        const ex5 = ex1.previousElementSibling;
+
+        const ex6 = ex1.nextSibling
+
+        const ex7 = ex1.nextElementSibling;
+
+        const ex8 = ex2.lastElementChild.previousElementSibling;
+    </script>
+</main>
